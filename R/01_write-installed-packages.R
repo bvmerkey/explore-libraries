@@ -9,6 +9,8 @@ dat <- installed.packages() %>%
   as_tibble %>%
   select(Package,LibPath,Version,Priority,Built)
 
+nrow(dat)
+
 ## optional: select just some of the variables, such as
 ##   * Package
 ##   * LibPath
