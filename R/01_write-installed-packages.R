@@ -14,7 +14,7 @@ library(here)
 ## hint: installed.packages() is the function you need
 dat <- installed.packages() %>%
   as_tibble %>%
-  select(Package,LibPath,Version,Priority,Built)
+  select(Package, LibPath, Version, Priority, Built)
 
 nrow(dat)
 
@@ -29,7 +29,7 @@ nrow(dat)
 ## hint: readr::write_csv() or write.table()
 ## idea: try using here::here() to create the file path
 dat %>%
-  write_csv(here::here("data","installed-packages.csv"))
+  write_csv(here::here("data", "installed-packages.csv"))
 
 ## YES overwrite the file that is there now (or delete it first)
 ## that came from me (Jenny)
