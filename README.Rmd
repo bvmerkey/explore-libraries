@@ -16,6 +16,8 @@ library(tidyverse)
 
 ## Workshop challenge checklist
 
+Here's a new comment to test Git push/pull syncing & merging.
+
 *As you complete tasks, you can ~~cross them out~~ by surrounding with `~~`.*
 
 ~~* Have a look around the files here. Where are the R scripts? What are the directories `data` and `figs` for?~~
