@@ -7,3 +7,5 @@ max(x)
 min(x)
 
 median(x)
+
+IQR(x)
