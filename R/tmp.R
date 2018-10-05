@@ -5,3 +5,5 @@ mean(x)
 
 max(x)
 min(x)
+
+median(x)
